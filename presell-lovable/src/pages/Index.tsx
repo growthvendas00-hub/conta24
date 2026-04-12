@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Shield, Check, Loader2 } from "lucide-react";
 
-const REDIRECT_URL = "https://pedidosenviados.netlify.app/";
+interface PresellModalProps {
+  onComplete: () => void;
+}
 
-const Index = () => {
+const PresellModal = ({ onComplete }: PresellModalProps) => {
   const [state, setState] = useState<"idle" | "loading" | "done">("idle");
 
   const handleCheck = () => {
@@ -13,7 +15,7 @@ const Index = () => {
   };
 
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div className="fixed inset-0 z-[9999] flex flex-col bg-background overflow-y-auto">
       {/* Main */}
       <main className="flex flex-1 items-center justify-center px-4 py-12">
         <div className="w-full max-w-md rounded-2xl bg-card p-8 shadow-2xl text-card-foreground">
@@ -65,12 +67,12 @@ const Index = () => {
 
           {/* CTA Button */}
           {state === "done" && (
-            <a
-              href={REDIRECT_URL}
+            <button
+              onClick={onComplete}
               className="mt-6 block w-full rounded-lg bg-primary py-3.5 text-center text-sm font-bold uppercase tracking-wider text-primary-foreground shadow-lg shadow-primary/30 transition-all hover:brightness-110 animate-fade-in"
             >
               Continuar para o site
-            </a>
+            </button>
           )}
         </div>
       </main>
@@ -95,4 +97,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default PresellModal;
