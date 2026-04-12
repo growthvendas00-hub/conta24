@@ -86,9 +86,9 @@ const PresellModal = ({ onComplete }: PresellModalProps) => {
           <span>·</span>
           <a href="#" className="hover:underline">Contato</a>
         </div>
-        <p className="font-semibold mb-1">Supermercado Shammah</p>
-        <p>CNPJ: 15.782.878/0001-01</p>
-        <p className="mb-4">Praca Do Mercado Novo, 12 - Riacho de Santana - BA - 46470-000</p>
+        <p className="font-semibold mb-1">Studio Personal Academia de Ginastica LTDA</p>
+        <p>CNPJ: 32.933.763/0001-81</p>
+        <p className="mb-4">Rua Santos Dumont 85, -Centro - Augustinópolis - TO 77960-000</p>
         <p className="text-[10px] text-muted-foreground">
           © 2026. Todos os direitos reservados. Esta página não possui vínculo com Google ou Meta.
         </p>
