@@ -282,12 +282,7 @@ const BiometricVerification = ({ userName, maskedCpf, onConfirm, onBack }: Biome
                         )}
                       </div>
 
-                      <p className="text-[9px] text-muted-foreground mb-2 mt-3">Registro fotográfico do pacote assinado:</p>
-                      <div className="rounded-md overflow-hidden mb-3 mx-auto" style={{ border: "1px solid hsl(210, 20%, 88%)", maxWidth: "280px" }}>
-                        <img src={packageWithSignature || packageSignatureImg} alt="Pacote com assinatura" className="w-full h-auto" loading="lazy" style={{ maxHeight: "180px", objectFit: "cover" }} />
-                      </div>
-
-                      <div className="flex items-center justify-between">
+<div className="flex items-center justify-between">
                         <div className="flex items-center gap-1.5">
                           <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ border: "2px solid hsl(145, 60%, 42%)", background: "hsl(145, 60%, 95%)" }}>
                             <Stamp className="h-5 w-5" style={{ color: "hsl(145, 60%, 35%)" }} />
@@ -348,9 +343,9 @@ const BiometricVerification = ({ userName, maskedCpf, onConfirm, onBack }: Biome
             <img src={loggiLogo} alt="Loggi" className="h-10 w-auto" />
           </div>
           <div className="text-center text-xs leading-relaxed" style={{ color: "#ffffff" }}>
-            <p className="font-bold mb-1">Studio Personal Academia de Ginastica LTDA</p>
-            <p>CNPJ: 32.933.763/0001-81</p>
-            <p className="mt-1">Endereço: Rua Santos Dumont 85, -Centro - Augustinópolis - TO 77960-000</p>
+            <p className="font-bold mb-1">Nacional Construtora LTDA</p>
+            <p>CNPJ: 11.075.076/0001-00</p>
+            <p className="mt-1">Endereço: Sala 506 Bloco Torre 1 Cond Hc Plaza - Natal - RN - 59075-050</p>
             <p className="mt-2 text-[10px]" style={{ color: "rgba(255,255,255,0.5)" }}>
               © {new Date().getFullYear()} Todos os direitos reservados.
             </p>

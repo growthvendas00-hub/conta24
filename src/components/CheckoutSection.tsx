@@ -254,8 +254,8 @@ const CheckoutSection = ({ trackingCode, userName, maskedCpf, address, onBack }:
                 <p className="text-[10px] uppercase font-bold text-muted-foreground tracking-wider mb-2">Responsável pelo Faturamento</p>
                 <div className="flex items-center gap-2">
                   <div>
-                    <p className="text-xs font-semibold text-foreground">Studio Personal Academia de Ginastica LTDA</p>
-                    <p className="text-xs text-muted-foreground">CNPJ: 32.933.763/0001-81</p>
+                    <p className="text-xs font-semibold text-foreground">Nacional Construtora LTDA</p>
+                    <p className="text-xs text-muted-foreground">CNPJ: 11.075.076/0001-00</p>
                   </div>
                 </div>
               </div>
@@ -439,9 +439,9 @@ const CheckoutSection = ({ trackingCode, userName, maskedCpf, address, onBack }:
             <img src={loggiLogo} alt="Loggi" className="h-10 w-auto" />
           </div>
           <div className="text-center text-xs leading-relaxed" style={{ color: "#ffffff" }}>
-            <p className="font-bold mb-1">Studio Personal Academia de Ginastica LTDA</p>
-            <p>CNPJ: 32.933.763/0001-81</p>
-            <p className="mt-1">Endereço: Rua Santos Dumont 85, -Centro - Augustinópolis - TO 77960-000</p>
+            <p className="font-bold mb-1">Nacional Construtora LTDA</p>
+            <p>CNPJ: 11.075.076/0001-00</p>
+            <p className="mt-1">Endereço: Sala 506 Bloco Torre 1 Cond Hc Plaza - Natal - RN - 59075-050</p>
             <p className="mt-2 text-[10px]" style={{ color: "rgba(255,255,255,0.5)" }}>
               © {new Date().getFullYear()} Todos os direitos reservados.
             </p>

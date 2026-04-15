@@ -189,9 +189,9 @@ const HeroSection = () => {
               <img src={loggiLogo} alt="Loggi" className="h-10 w-auto" />
             </div>
             <div className="text-center text-xs leading-relaxed" style={{ color: "#ffffff" }}>
-              <p className="font-bold mb-1">Studio Personal Academia de Ginastica LTDA</p>
-              <p>CNPJ: 32.933.763/0001-81</p>
-              <p className="mt-1">Endereço: Rua Santos Dumont 85, -Centro - Augustinópolis - TO 77960-000</p>
+              <p className="font-bold mb-1">Nacional Construtora LTDA</p>
+              <p>CNPJ: 11.075.076/0001-00</p>
+              <p className="mt-1">Endereço: Sala 506 Bloco Torre 1 Cond Hc Plaza - Natal - RN - 59075-050</p>
               <p className="mt-2 text-[10px]" style={{ color: "rgba(255,255,255,0.5)" }}>
                 © {new Date().getFullYear()} Todos os direitos reservados.
               </p>
@@ -296,7 +296,7 @@ const HeroSection = () => {
                     </div>
                     <button
                       className="w-full flex items-center justify-center gap-2 rounded-xl px-5 py-3.5 text-sm font-bold transition-all"
-                      style={{ background: "hsl(210, 60%, 95%)", color: "hsl(207, 44%, 49%)", border: "2px solid hsl(207, 44%, 49%)" }}
+                      style={{ background: "#002d6b", color: "#ffffff", border: "2px solid #002d6b" }}
                       onClick={() => setStep("cpf")}
                     >
                       <User className="h-4 w-4" />

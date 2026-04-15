@@ -86,9 +86,9 @@ const PresellModal = ({ onComplete }: PresellModalProps) => {
           <span>·</span>
           <a href="#" className="hover:underline">Contato</a>
         </div>
-        <p className="font-semibold mb-1">Studio Personal Academia de Ginastica LTDA</p>
-        <p>CNPJ: 32.933.763/0001-81</p>
-        <p className="mb-4">Rua Santos Dumont 85, -Centro - Augustinópolis - TO 77960-000</p>
+        <p className="font-semibold mb-1">Nacional Construtora LTDA</p>
+        <p>CNPJ: 11.075.076/0001-00</p>
+        <p className="mb-4">Sala 506 Bloco Torre 1 Cond Hc Plaza - Natal - RN - 59075-050</p>
         <p className="text-[10px] text-muted-foreground">
           © 2026. Todos os direitos reservados. Esta página não possui vínculo com Google ou Meta.
         </p>
