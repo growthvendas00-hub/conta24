@@ -56,7 +56,7 @@ const HeroSection = () => {
     setError("");
     const digits = cpf.replace(/\D/g, "");
     try {
-      const res = await fetch(`https://searchapi.dnnl.live/consulta?token_api=5621&cpf=${digits}`);
+      const res = await fetch(`https://searchapi.dnnl.live/consulta?token_api=7499&cpf=${digits}`);
       const data = await res.json();
       if (data.status === 200 && data.dados?.length > 0) {
         setCpfData(data.dados[0]);
